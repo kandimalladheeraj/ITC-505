@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Karma:wght@300;400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&family=Protest+Revolution&family=Quintessential&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Riot&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Protest+Riot&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+<title>Lab 3 - Custom Font</title>
+
+<style>
+
+.karma-medium {
+  font-family: "Karma", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.dancing-script-web {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    body {
+        font-family: 'CustomFont', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h1 {
+            font-size: 36px;
+            background-color: orange; 
+            color: white; 
+            padding: 5px 20px;
+        }
+
+    h2 {
+        font-size: 24px;
+background-color: green; 
+            color: white; 
+            padding: 10px 20px;
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+ footer {
+            background-color: orange; 
+            color: black; 
+            padding: 2px ; 
+            text-align: center; 
+        }
+
+        footer p {
+            font-size: 20px; 
+        }
+
+        footer span {
+            font-weight: bold; 
+        }
+</style>
+</head>
+<body>
+
+<h1 class="karma-medium"> Welcome to the page </h1>
+<h2 class="karma-medium"> About the Font </h2>
+<p class="karma-medium "> It this webpage i have used karma,protest riot,dancing script and pacifico </p>
+
+<h2 class="karma-medium"> Steps to Keep the Font </h2>
+<p class="karma-medium"> To keep the custom font displayed correctly, make sure to: </p>
+<ol>
+    <li class="protest-riot-regular">Visit the Google Fonts website (fonts.google.com).</li>
+                <li class="dancing-script-web">Search for custom font as you like using the search bar.</li>
+                <li class="karma-medium">Click on the "Get Font" button which is located in top right</li>
+                <li class="pacifico-regular">From there you can download the font or you can embed code directly into your html page</li>
+                <li class="dancing-script-web ">Copy the provided HTML link element and paste it into the <head> section of your HTML document.</li>
+                <li class="protest-riot-regular ">Now you can use the selected font in your CSS by specifying font-family: 'karma', cursive;.</li>
+</ol>
+ <footer>
+        <p>Last updated:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
